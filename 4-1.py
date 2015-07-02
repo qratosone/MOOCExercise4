@@ -5,7 +5,7 @@ while True:
     if fibs[-1]>num:
         fibs.pop(-1)
         break
-
+print fibs
 total=0
 for x in fibs :
     if x%2==0:
